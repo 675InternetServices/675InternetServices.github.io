@@ -24,7 +24,7 @@
 </head>
 <body id="contact-us">
 
-	<header class="navbar navbar-inverse normal" role="banner">
+	<header class="navbar navbar-inverse normal" role="banner" style="background-color: #F4F7FA;">
   		<div class="container">
     		<div class="navbar-header">
 		      	<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
@@ -33,26 +33,28 @@
 			        <span class="icon-bar"></span>
 		      	</button>
       			<a href="http://675internet.nl" class="navbar-brand">
-							<img src="http://675internet.nl/img/logo.png">
+							<img src="http://675internet.nl/img/logo.png" style="max-width: 150px; margin-top: -10px;">
 						</a>
     		</div>
     		<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
       			<ul class="nav navbar-nav">
-							<li><a href="http://675internet.nl/projects">Projects</a></li>
-							<li><a href="http://675internet.nl/contact">Contact</a></li>
+							<li><a href="http://675internet.nl/projects" style="color: #1A1C19;">Projects</a></li>
+							<li><a href="http://675internet.nl/contact" style="color: #1A1C19;">Contact</a></li>
       			</ul>
     		</nav>
   		</div>
 	</header>
 
   <div id="map">
-		<div>
-			<img width="1280" src="https://api.mapbox.com/styles/v1/mapbox/streets-v8/static/6.168957352638245,52.263048972567844,13,0,52/1280x400@2x?access_token=pk.eyJ1Ijoic3NjaGltbWVsIiwiYSI6ImNpcTU1M3Q3NzAwMGhoeG5zaTZtcThzYWsifQ.dVlifzC_7giMoofnPHTBIw" alt="Mapbox Map of 6.168957352638245, 52.263048972567844">
-			&copy; <a href='https://www.mapbox.com/map-feedback/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap contributors</a>
+		<div class="row">
+			<div class="col-xs-12">
+				<img src="https://api.mapbox.com/styles/v1/mapbox/streets-v8/static/6.168957352638245,52.263048972567844,13,0,52/1280x400@2x?access_token=pk.eyJ1Ijoic3NjaGltbWVsIiwiYSI6ImNpcTU1M3Q3NzAwMGhoeG5zaTZtcThzYWsifQ.dVlifzC_7giMoofnPHTBIw">
+			</div>
 		</div>
-		<div class="marker-wrapper">
-			<div class="marker-icon"></div>
-			<div class="marker"></div>
+		<div class="row">
+			<div class="col-xs-12 text-right muted">
+				&copy; <a href='https://www.mapbox.com/map-feedback/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap contributors</a>
+			</div>
 		</div>
   </div>
 
