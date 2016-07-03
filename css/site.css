@@ -28,6 +28,10 @@
   margin-top: 0px;
 }
 
+.team {
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   .navbar.normal .navbar-collapse .navbar-nav {
     float: right;
