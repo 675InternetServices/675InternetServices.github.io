@@ -57,7 +57,6 @@
   }
 }
 
-
 @media (max-width: 768px) {
   #brands {
     text-align: center;
@@ -81,5 +80,11 @@
 @media (max-width: 991px) {
   #contact-us #info .contact {
     margin-top: 0;
+  }
+}
+
+@media (min-height: 900px) {
+  #contact-us > #footer {
+    margin-top: 210px;
   }
 }
