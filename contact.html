@@ -8,8 +8,8 @@
 
 	<!-- stylesheets -->
 	<link rel="stylesheet" type="text/css" href="css/compiled/theme.css">
-    <link rel="stylesheet" type="text/css" href="css/vendor/ionicons.min.css">
-    <link rel="stylesheet" type="text/css" href="css/vendor/flipclock.css">
+  <link rel="stylesheet" type="text/css" href="css/vendor/ionicons.min.css">
+	<link rel="stylesheet" type="text/css" href="css/site.css">
 
 	<!-- javascript -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -47,8 +47,10 @@
 
   <div id="map" style="max-height: 400px;" class="container-fluid">
 		<div class="row">
-			<div class="col-xs-12">
-				<div style="overflow:hidden;max-width:1920px;height:400px;resize:none;max-width:100%;"><div id="gmap_display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=H.J.P.+Fesevurstraat+9,+Deventer,+Netherlands&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="google-map-enabler" href="https://www.hostingreviews.website/a2-hosting-review" id="authorize-maps-data">a2 hosting reviews</a><style>#gmap_display .text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style></div><script src="https://www.hostingreviews.website/google-maps-authorization.js?id=4cc6eb2e-9b1f-73e1-5ec8-5f5d7b70b297&c=google-map-enabler&u=1467466977" defer="defer" async="async"></script>
+			<div class="col-xs-12 no-padding">
+				<div style="overflow:hidden;max-width:1920px;height:400px;resize:none;max-width:100%;">
+					<div id="gmap_display" style="height:100%; width:100%;max-width:100%;">
+						<iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=H.J.P.+Fesevurstraat+9,+Deventer,+Netherlands&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="google-map-enabler" href="https://www.hostingreviews.website/a2-hosting-review" id="authorize-maps-data">a2 hosting reviews</a><style>#gmap_display .text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style></div><script src="https://www.hostingreviews.website/google-maps-authorization.js?id=4cc6eb2e-9b1f-73e1-5ec8-5f5d7b70b297&c=google-map-enabler&u=1467466977" defer="defer" async="async"></script>
 			</div>
 		</div>
   </div>
@@ -59,7 +61,7 @@
 				<div class="row">
 					<div class="col-md-6">
 						<div class="address">
-		          <h3>Office address</h3>
+		          <span class="subtitle"><h3>Office address</h3></span>
 		          <address>
 		            <p>
 		              H.J.P. Fesevurstraat 9<br>
@@ -68,7 +70,7 @@
 		              The Netherlands
 		            </p>
 		          </address>
-		          <h3>Postal address</h3>
+		          <span class="subtitle"><h3>Postal address</h3></span>
 		          <address>
 		            <p>
 		              Postbus 2278<br>
@@ -80,7 +82,7 @@
 					</div>
 					<div class="col-md-6">
 						<div class="phone">
-		          <h3>Get in touch</h3>
+		          <span class="subtitle"><h3>Get in touch</h3></span>
 		          <p>Phone: +3185 303 3586<br />
 		            Skype: sebastiaan_schimmel</p>
 		        </div>
@@ -92,7 +94,7 @@
 				</div>
 
       </div>
-			<div class="col-md-4 contact">
+			<div class="col-md-4 contact" id="brands">
 				<h3>Brands</h3>
 				<img src="http://675internet.nl/img/logo.png" style="max-width: 175px;"><br>
 				<img src="http://675internet.nl/img/divehub.png" style="max-width: 175px; margin-top: 20px;"><br>
