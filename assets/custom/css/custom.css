@@ -62,7 +62,7 @@
   }
 }
 
-@media (max-width: 991px) {
+@media (min-width: 768) {
   #crmWebToEntityForm {
     width: 600px;
     margin-top: 20px;
