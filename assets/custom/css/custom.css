@@ -1,0 +1,93 @@
+#top-navigation .ident .vc-photo {
+  background-image: url('http://www.675internet.nl/img/sebastiaan.jpg');
+}
+
+#ContactTable input {
+  width: auto;
+}
+
+
+.timeline-photo {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: url(../images/grayscale.svg#greyscale);
+  /* Firefox 4+ */
+  filter: gray;
+  /* IE 6-9 */
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.timeline-eo {
+  background: url("../../../img/timeline/timeline-eo.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.timeline-ac {
+  background: url("../../../img/timeline/timeline-ac.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.timeline-en {
+  background: url("../../../img/timeline/timeline-en.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.timeline-hugo {
+  background: url("../../../img/timeline/timeline-hugo.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.timeline-pl {
+  background: url("../../../img/timeline/timeline-pl.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 767px) {
+  #crmWebToEntityForm {
+    width: 300px;
+    margin-top: 20px;
+  }
+  #ContactTable {
+    width: 300px;
+  }
+}
+
+@media (max-width: 991px) {
+  #crmWebToEntityForm {
+    width: 600px;
+    margin-top: 20px;
+  }
+  #ContactTable {
+    width: 600px;
+  }
+}
+
+@media (min-width: 992px) {
+  #crmWebToEntityForm {
+    width: 450px;
+  }
+
+  #ContactTable {
+    width: 450px;
+  }
+}
+
+@media (min-width: 1230px) {
+  #crmWebToEntityForm {
+    width: 600px;
+  }
+
+  #ContactTable {
+    width: 600px;
+  }
+}
